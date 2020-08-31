@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "appClaeUno"
+    }
+  },
+  "defaultProject": "appClaeUno",
+  "cli": {
+    "analytics": "0910fc37-834c-45bc-8ad4-91f48cb310ee"
+  }
 }
