@@ -11,12 +11,11 @@
         Edad Uno : <input type="text" [(ngModel)]="edadUno" placeholder="Edad Uno">
     </div>
     <div>
-        Edad Dos : <input type="text" [(ngModel)]="edadDos" #ctrl = "ngModel" >
+        Edad Dos : <input type="text" [(ngModel)]="edadDos" placeholder= "Edad Dos" >
     </div>
     <input type="button" id="botones" value="Calcular" (click)="promedio()">
 
-    <input type="button" id="botones" ng-model="limpiar" (click)="limpiar()">
-    <h1>Hello {{"edadUno"}}</h1>    
+    <input type="button" id="botones" value="Limpiar" (click)="limpiar()">
     
 </body>
 </html>

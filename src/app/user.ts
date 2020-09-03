@@ -1,5 +1,4 @@
-export class Usuario
-{
+export class User {
     private nombre:string;
     private clave:any;
 
