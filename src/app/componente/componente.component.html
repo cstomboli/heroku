@@ -1,1 +1,24 @@
-<p>componente works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+    <div>
+        Edad Uno : <input type="text" [(ngModel)]="edadUno" placeholder="Edad Uno">
+    </div>
+    <div>
+        Edad Dos : <input type="text" [(ngModel)]="edadDos" #ctrl = "ngModel" >
+    </div>
+    <input type="button" id="botones" value="Calcular" (click)="promedio()">
+
+    <input type="button" id="botones" ng-model="limpiar" value="Limpiar">
+    <h1>Hello {{"edadUno"}}</h1>    
+    
+</body>
+</html>
+
+
