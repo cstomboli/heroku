@@ -37,4 +37,10 @@ export class ComponenteComponent implements OnInit {
     }
   }
 
+  public limpiar()
+  {
+    this.edadDos = "";
+    this.edadUno="";
+  }
+
 }
